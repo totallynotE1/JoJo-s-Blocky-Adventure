@@ -1,0 +1,7 @@
+{
+  "parent": "jm:custom/plucksword",
+  "textures": {
+    "gold_block": "jm:blocks/gold_block",
+    "iron_block": "jm:blocks/iron_block"
+  }
+}

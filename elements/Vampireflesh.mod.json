@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "vampire_flesh",
+    "customModelName": "Normal",
+    "name": "Vampire Flesh",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Jmbacreativetab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.1,
+    "eatingSpeed": 50,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

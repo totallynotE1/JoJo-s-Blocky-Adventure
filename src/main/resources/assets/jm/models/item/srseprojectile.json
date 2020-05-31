@@ -1,0 +1,6 @@
+{
+  "parent": "jm:custom/srse",
+  "textures": {
+    "0": "jm:blocks/srsetexture"
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Mysterioussword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysterioussword"
+    },
+    {
+      "name": "Mysteriousore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysteriousore"
+    },
+    {
+      "name": "Mysteriousshard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysteriousshard"
+    },
+    {
+      "name": "Mysteriousarmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysteriousarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Jmbacreativetab",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jmbacreativetab"
+    },
+    {
+      "name": "Vampire",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampire"
+    },
+    {
+      "name": "Vampireblood",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampireblood"
+    },
+    {
+      "name": "Ajastone",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ajastone"
+    },
+    {
+      "name": "Vampireflesh",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vampireflesh"
+    },
+    {
+      "name": "Mysteriousblock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysteriousblock"
+    },
+    {
+      "name": "Plucksword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plucksword"
+    },
+    {
+      "name": "Stonemask",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonemask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Delete_item",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "delete_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Srseprojectile",
+      "type": "gun",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "srseprojectile"
+    },
+    {
+      "name": "Togglepowers",
+      "type": "keybind",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "togglepowers"
+    },
+    {
+      "name": "Turnonoffstand",
+      "type": "keybind",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turnonoffstand"
+    },
+    {
+      "name": "Kq",
+      "type": "mob",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kq"
+    },
+    {
+      "name": "Kqtick",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kqtick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kqspawned",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kqspawned",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kqcollide",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kqcollide",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kqclicked",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kqclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tw",
+      "type": "mob",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tw"
+    },
+    {
+      "name": "Twtick",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twtick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twspwn",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twspwn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twcolld",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twcolld",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twclck",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twclck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jmattack1",
+      "type": "potion",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jmattack_1"
+    },
+    {
+      "name": "Jmcooldonw1",
+      "type": "potion",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jmcooldonw_1"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "vampire_wry",
+      "file": "vampire.wry",
+      "category": "master"
+    },
+    {
+      "name": "reject_humanity",
+      "file": "reject_humanity",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "effect.jmattack_1": "Jmattack 1",
+      "block.jm.mysteriousblock": "Mysteriousblock",
+      "item.minecraft.tipped_arrow.effect.jmcooldonw_1": "Arrow of Jmattack 1",
+      "block.jm.mysteriousore": "Mysterious Ore",
+      "item.jm.mysteriousshard": "Mysterious Shard",
+      "item.jm.ajastone": "Redstone Of Aja",
+      "item.jm.mysterioussword": "Mysterious Sword",
+      "item.jm.vampireblood": "Vampire Blood",
+      "item.jm.kq": "Killer Queen Spawn Egg",
+      "item.jm.mysteriousarmorhelmet": "Mysterious Helmet",
+      "key.mcreator.togglepowers": "Enable/Disable Power Abilities",
+      "entity.jm.tw": "The World!",
+      "item.jm.vampire": "Vampire Spawn Egg",
+      "item.jm.stonemasklegs": "",
+      "item.jm.stonemaskbody": "",
+      "item.jm.vampireflesh": "Vampire Flesh",
+      "item.jm.mysteriousarmorboots": "Mysterious Boots",
+      "itemGroup.tabjmbacreativetab": "JoJo\u0027s Blocky Adventure : Age Of Hamon",
+      "item.jm.plucksword": "Plucksword",
+      "item.minecraft.potion.effect.jmattack_1": "Jmattack 1",
+      "item.minecraft.tipped_arrow.effect.jmattack_1": "Arrow of Jmattack 1",
+      "item.minecraft.lingering_potion.effect.jmcooldonw_1": "Lingering Jmattack 1",
+      "item.jm.mysteriousarmorlegs": "Mysterious Leggings",
+      "item.minecraft.potion.effect.jmcooldonw_1": "Jmattack 1",
+      "item.minecraft.lingering_potion.effect.jmattack_1": "Lingering Jmattack 1",
+      "item.minecraft.splash_potion.effect.jmattack_1": "Splash Jmattack 1",
+      "entity.jm.vampire": "Vampire",
+      "key.mcreator.turnonoffstand": "Enable/Disable Stand Power",
+      "item.jm.srseprojectile": "null",
+      "item.jm.stonemaskhelmet": "Stone Mask",
+      "entity.jm.kq": "Killer Queen",
+      "item.jm.tw": "The World! Spawn Egg",
+      "item.minecraft.splash_potion.effect.jmcooldonw_1": "Splash Jmattack 1",
+      "item.jm.stonemaskboots": "",
+      "effect.jmcooldonw_1": "Jmattack 1",
+      "item.jm.mysteriousarmorbody": "Mysterious Chestplate"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "jm",
+    "modName": "JoJo\u0027s Blocky Adventure!",
+    "version": "1.0.0",
+    "author": "leon.ex, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.e1.jm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000321322
+}

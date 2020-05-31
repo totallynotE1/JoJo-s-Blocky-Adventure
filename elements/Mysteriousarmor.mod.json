@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "mysterious_helmet",
+    "enableBody": true,
+    "textureBody": "mysterious_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "mysterious_leggings",
+    "enableBoots": true,
+    "textureBoots": "mysterious_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Jmbacreativetab"
+    },
+    "armorTextureFile": "mysterious_",
+    "helmetName": "Mysterious Helmet",
+    "bodyName": "Mysterious Chestplate",
+    "leggingsName": "Mysterious Leggings",
+    "bootsName": "Mysterious Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 45,
+    "damageValueHelmet": 4,
+    "damageValueBody": 12,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 4,
+    "enchantability": 0,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mysteriousshard"
+      }
+    ]
+  }
+}

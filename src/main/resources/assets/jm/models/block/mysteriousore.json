@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jm:blocks/mysterious_ore",
+    "up": "jm:blocks/mysterious_ore",
+    "north": "jm:blocks/mysterious_ore",
+    "east": "jm:blocks/mysterious_ore",
+    "south": "jm:blocks/mysterious_ore",
+    "west": "jm:blocks/mysterious_ore",
+    "particle": "jm:blocks/mysterious_ore"
+  }
+}

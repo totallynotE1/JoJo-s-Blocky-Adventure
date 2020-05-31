@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jm:blocks/mysterious_block",
+    "up": "jm:blocks/mysterious_block",
+    "north": "jm:blocks/mysterious_block",
+    "east": "jm:blocks/mysterious_block",
+    "south": "jm:blocks/mysterious_block",
+    "west": "jm:blocks/mysterious_block",
+    "particle": "jm:blocks/mysterious_block"
+  }
+}

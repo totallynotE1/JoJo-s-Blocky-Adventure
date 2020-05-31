@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "stand_sword",
+    "customModelName": "plucksword:default",
+    "name": "Plucksword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Jmbacreativetab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 6.0,
+    "attackSpeed": 4.0,
+    "enchantability": 4,
+    "damageVsEntity": 6.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mysteriousshard"
+      }
+    ]
+  }
+}

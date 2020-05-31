@@ -1,0 +1,20 @@
+{
+  "vampire_wry": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "jm:vampire.wry",
+        "stream": false
+      }
+    ]
+  },
+  "reject_humanity": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "jm:reject_humanity",
+        "stream": false
+      }
+    ]
+  }
+}

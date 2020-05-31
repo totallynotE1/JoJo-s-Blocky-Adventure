@@ -1,0 +1,39 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "aja_stone",
+    "customModelName": "srse:default",
+    "name": "null",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 0,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Delete_item"
+    },
+    "bulletPower": 3.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 3,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Srseprojectile"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

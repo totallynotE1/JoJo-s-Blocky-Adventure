@@ -1,0 +1,19 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "Jmattack 1",
+    "effectName": "Jmattack 1",
+    "icon": "activatedmask_texture.png",
+    "color": {
+      "value": -13421569,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false
+  }
+}

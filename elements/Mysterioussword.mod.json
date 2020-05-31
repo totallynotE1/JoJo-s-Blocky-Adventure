@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stand_sword",
+    "customModelName": "Normal",
+    "name": "Mysterious Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Jmbacreativetab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 5.0,
+    "enchantability": 5,
+    "damageVsEntity": 5.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mysteriousshard"
+      }
+    ]
+  }
+}
