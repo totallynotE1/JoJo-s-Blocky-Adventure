@@ -14,11 +14,11 @@ import net.minecraft.potion.Effect;
 import net.e1.jm.JmModElements;
 
 @JmModElements.ModElement.Tag
-public class Jmcooldonw1Potion extends JmModElements.ModElement {
-	@ObjectHolder("jm:jmcooldonw_1")
+public class Jmcooldown1Potion extends JmModElements.ModElement {
+	@ObjectHolder("jm:jmcooldown_1")
 	public static final Effect potion = null;
-	public Jmcooldonw1Potion(JmModElements instance) {
-		super(instance, 37);
+	public Jmcooldown1Potion(JmModElements instance) {
+		super(instance, 38);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -30,13 +30,13 @@ public class Jmcooldonw1Potion extends JmModElements.ModElement {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
 			super(EffectType.NEUTRAL, -13421569);
-			setRegistryName("jmcooldonw_1");
+			setRegistryName("jmcooldown_1");
 			potionIcon = new ResourceLocation("jm:textures/activatedmask_texture.png");
 		}
 
 		@Override
 		public String getName() {
-			return "effect.jmcooldonw_1";
+			return "effect.jmcooldown_1";
 		}
 
 		@Override
