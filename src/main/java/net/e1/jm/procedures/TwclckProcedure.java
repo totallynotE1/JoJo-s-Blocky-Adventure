@@ -29,13 +29,14 @@ public class TwclckProcedure extends JmModElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		World world = (World) dependencies.get("world");
-		if (sourceentity instanceof PlayerEntity && !world.isRemote) {
-			((PlayerEntity) sourceentity).sendStatusMessage(
-					new StringTextComponent((("stand ID (Debug/Dev Use Only)= ") + "" + ((entity.getDisplayName().getFormattedText())))), (false));
+		if (entity instanceof PlayerEntity && !world.isRemote) {
+			((PlayerEntity) entity).sendStatusMessage(
+					new StringTextComponent((("stand ID (Debug/Dev Use Only)= ") + "" + ((sourceentity.getDisplayName().getFormattedText())))),
+					(false));
 		}
-		if (sourceentity instanceof PlayerEntity && !world.isRemote) {
-			((PlayerEntity) sourceentity).sendStatusMessage(
-					new StringTextComponent((("stand Master= ") + "" + ((entity.getPersistentData().getString("jm_standMaster"))))), (false));
+		if (entity instanceof PlayerEntity && !world.isRemote) {
+			((PlayerEntity) entity).sendStatusMessage(
+					new StringTextComponent((("stand Master= ") + "" + ((sourceentity.getPersistentData().getString("jmstandMaster"))))), (false));
 		}
 	}
 }

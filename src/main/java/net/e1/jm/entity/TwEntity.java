@@ -211,6 +211,7 @@ public class TwEntity extends JmModElements.ModElement {
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("sourceentity", sourceentity);
+				$_dependencies.put("world", world);
 				TwcolldProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -230,11 +231,6 @@ public class TwEntity extends JmModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.FLYING_SPEED) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
 			this.getAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.8);
-		}
-
-		@Override
-		public boolean canBeCollidedWith() {
-			return false;
 		}
 
 		@Override

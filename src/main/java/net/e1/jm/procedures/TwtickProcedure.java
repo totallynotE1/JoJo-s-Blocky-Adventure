@@ -16,25 +16,12 @@ public class TwtickProcedure extends JmModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((entity.getPersistentData().getBoolean("jm_standAttack")) == (false))
-				|| (((entity.getPersistentData().getBoolean("jm_standAttack2")) == (false))
-						|| ((entity.getPersistentData().getBoolean("jm_standAttack3")) == (false))))) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-							(("execute as ") + "" + ((entity.getPersistentData().getString("jm_standMaster"))) + "" + (" at @s run tp @e[name=") + ""
-									+ ((entity.getDisplayName().getFormattedText())) + "" + ("] ^-1.1 ^ ^-0.25")));
-				}
-			}
-		} else if (((entity.getPersistentData().getBoolean("jm_standAttack")) == (true))) {
-			{
-				Entity _ent = entity;
-				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
-					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-							(("execute as ") + "" + ((entity.getPersistentData().getString("jm_standMaster"))) + "" + (" at @s run tp @e[name=") + ""
-									+ ((entity.getDisplayName().getFormattedText())) + "" + ("] ^ ^ ^1.25")));
-				}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						(("execute as ") + "" + ((entity.getPersistentData().getString("jmstandMaster"))) + "" + (" at @s run tp @e[name=\"") + ""
+								+ ((entity.getDisplayName().getFormattedText())) + "" + ("\"] ^-1.1 ^ ^-0.25 facing ^ ^ ^.65")));
 			}
 		}
 	}

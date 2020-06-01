@@ -54,7 +54,7 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": true,
-    "disableCollisions": true,
+    "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,

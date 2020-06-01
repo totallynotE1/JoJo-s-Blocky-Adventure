@@ -18,9 +18,8 @@ public class TwspwnProcedure extends JmModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.setCustomName(new StringTextComponent(((Math.random()) + "" + (Math.random()) + "" + (Math.random()) + "" + (Math.random()) + ""
-				+ (Math.random()) + "" + (Math.random()) + "" + (Math.random()))));
-		entity.getPersistentData().putString("jm_standMaster", "null");
+		entity.getPersistentData().putString("jmstandMaster", "null");
+		entity.setCustomName(new StringTextComponent((("" + (Math.random())).replace(".", ""))));
 		if ((entity instanceof TwEntity.CustomEntity)) {
 			entity.getPersistentData().putDouble("jm_standNum", 1);
 		}
